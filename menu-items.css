@@ -1,0 +1,74 @@
+.headline {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}
+
+.food {
+    list-style: none;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 25px;
+}
+
+.food-item {
+    width: 400px;
+    height: 250px;
+    border: 1px solid red;
+    font-size: 36px;
+    text-align: center;
+    transition: 0.5s;
+    color : rgb(249, 3, 20);
+}
+.food-item:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(16, 16, 16);
+    box-shadow: 2px black;
+}
+
+#gobi-man {
+    background-image: url('food-images/gobi-Manchurian-12.jpg');
+    background-size: 300px;
+}
+
+#veg-noodles {
+    background-image: url('food-images/veg-noodles.jpg');
+    background-size: 300px;
+}
+
+#egg-noodles {
+    background-image: url('food-images/egg\ noodles.jpg');
+    background-size: cover;
+}
+#paratha {
+    background-image: url('food-images/paratha.jpg');
+    background-size: cover;
+}
+
+#tandoori-roti {
+    background-image: url('food-images/tandoori\ roti.jpg');
+    background-size: cover;
+}
+#rumali-roti {
+    background-image: url('food-images/Rumali-Roti-Recipe-2.jpg');
+    background-size: cover;
+}
+
+#chapati{
+    background-image: url('food-images/Chapati-Wallpaper-1080p.jpg');
+    background-size: cover;
+}
+
+#biryani {
+    background-image: url('food-images/chicken-dum-biryani-white-bowl-traditional-indian-one-pot-dish-background-high-angle-view-156498926.jpg');
+    background-size: cover;
+}
+
+#masala-puri {
+    background-image: url('food-images/Masala-Puri-3-3.jpg');
+    background-size: 350px;
+}
